@@ -26,7 +26,7 @@ display: flex;
         width: 70vh;
 }
 .second {
-    background-color: #FF445D;
+    background: linear-gradient( #FF4268,#FF464E)
 }
 .links {
     display: flex;
@@ -43,26 +43,28 @@ ul li { display: inline;
 }
 .p1 { text-align: center;
     margin-top: 30px;
+    color: gra2;
 }
 
 #email {
 border: 1px solid gray;
-padding: 10px 10px 10px 10px;
+padding: 10px 10px 10px 20px;
 margin: 10px 20px 20px 120px;
 width: 250px;
-border-radius: 4px;
+border-radius: 2px;
 }
 
 #password {
     border: 1px solid gray;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 20px;
     margin: 10px 20px 20px 120px;
     width: 250px;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 .fyp {
 text-align: center;
 margin-top: 15px;
+color: gray;
 }
 .login-btn {
  display: flex;
@@ -70,7 +72,13 @@ margin-top: 15px;
  align-items: center;
  margin-top: 20px;
 }
-
+.login {
+    padding: 10px 50px;
+    background-color: #FF4A2B;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
 .r {
     height: 70vh;
     width: 70vh;
@@ -80,6 +88,7 @@ margin-top: 15px;
     position: absolute;
     top: 30%;
    left: 50%;
+   padding-left: 20px;
 }
 .second h1 {
     font-family: 'Poppins', sans-serif;
@@ -88,6 +97,7 @@ margin-top: 15px;
     position: absolute;
     top: 45%;
     left: 50%;
+    padding-left: 20px;
 }
 .second p {
     font-family: 'Poppins', sans-serif;
